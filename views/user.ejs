@@ -1,0 +1,8 @@
+<% include header.ejs %>
+    <% if (user) {%>
+        <% include says.ejs %>
+    <% } %>
+    <div class="container">
+        <% include posts.ejs %>
+    </div>
+<% include footer.ejs %>

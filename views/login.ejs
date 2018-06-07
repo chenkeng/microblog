@@ -1,0 +1,14 @@
+<% include header.ejs%>
+<div class="container">
+
+    <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">用户登录</h2>
+        <label for="username" class="sr-only">用户名</label>
+        <input type="text" id="username" name="username" class="form-control" style="margin-bottom: 10px;" placeholder="用户名" required autofocus>
+        <label for="password" class="sr-only">口令</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="口令" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+    </form>
+
+</div>  <!--/container -->
+<% include footer.ejs %>

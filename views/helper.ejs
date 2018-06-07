@@ -1,0 +1,11 @@
+<% include header.ejs %>
+<div>
+ <% if(!success){ %>
+    <p><%= success %></p>
+    <p>不存在</p>
+ <% } else {%>
+    <p><%= success %></p>
+    <p>存在</p>
+ <% } %>
+</div>
+<% include footer.ejs %>
